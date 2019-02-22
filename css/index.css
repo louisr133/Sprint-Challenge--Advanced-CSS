@@ -164,10 +164,13 @@ p {
   margin: 0 auto;
 }
 .full-header {
+  position: fixed;
+  width: 100%;
+  opacity: 0.95;
   background: #F6F6F6;
-  display: flex;
-  justify-content: center;
-  padding-bottom: 5px;
+  z-index: 9999;
+  height: 95px;
+  top: 0;
 }
 .full-header .h1-nav {
   display: flex;
@@ -198,6 +201,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home {
+  margin-top: 95px;
 }
 .home .intro h2 {
   padding: 15px;
