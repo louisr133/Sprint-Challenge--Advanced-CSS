@@ -58,6 +58,17 @@
       }
 
       .btn {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        .button(35px,100px);
+        color: @wild-sand;
+        font-size: 18px;
+
+        &:hover {
+          .button(35px,100px,@wild-sand);
+          color: @btn-bg-color;
+        }
       }
     }
 

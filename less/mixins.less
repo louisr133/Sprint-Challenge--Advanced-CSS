@@ -1,1 +1,11 @@
 // Mixins Here
+
+.btn-color {
+    background-color: @btn-bg-color;
+}
+.button(@height: 35px, @width: 100px, @bg-color: @btn-bg-color) {
+    height: @height;
+    width: @width;
+    background-color: @bg-color;
+    border-radius: 5px;
+}
