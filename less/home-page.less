@@ -25,6 +25,7 @@
       border-radius: 20px;
       height: 100%;
     }
+    
   }
 
   .visit-planets {
@@ -83,4 +84,44 @@
       }
     }
   }
+
+
+  @media @phone {
+    .sky, .launch {
+      display: none;
+    }
+  }
+
+  @media @phone {
+    .space-images{
+      justify-content: center;
+        img {
+          width: 90%;
+        }
+    }
+  }
+
+  @media @phone {
+    .walk {
+      flex-direction: column-reverse;
+      padding: 15px 15px;
+
+      .walk-text {
+        width: 100%;
+
+        .btn {
+          .button(100%, 100%);
+          padding: 20px 0;
+        }
+      }
+
+      .walk-img {
+        width: 100%;
+        margin-left: 0;
+        padding-bottom: 15px;
+      }
+    }
+  }
+
+
 }// home
