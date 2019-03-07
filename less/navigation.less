@@ -1,1 +1,39 @@
 // Navigation code here
+
+.full-header {
+    position:fixed;
+    width: 100%;
+    opacity: 0.95;
+    background: @wild-sand;
+    z-index: 9999;
+    height: 95px;
+    top:0;
+
+
+
+    .h1-nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h1 {
+            font-size: 40px;
+            padding: 10px;
+            
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-evenly;
+
+            a {
+                text-decoration: none;
+                color: black;
+                padding: 7px 15px;
+                font-size: 15px;
+            }
+        }
+    }
+}
+
